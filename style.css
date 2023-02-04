@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+
+  }
+.container{
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 10px;
+    background: white;
+}
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#taskList button {
+    margin-left: 10px;
+    padding-right: 90px;
+}
+#tasklist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#taskList span {
+    width: 100%;
+}
+.output ul li{
+    display: flex;
+
+}
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(63, 67, 68);
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-top: 10px;
+  }
+  
+  li span {
+    display: inline-block;
+    width: 90%;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+  }
+  
+  li button {
+    width: 10%;
+    background-color: rgb(44, 39, 39);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
